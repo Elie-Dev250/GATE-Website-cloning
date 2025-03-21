@@ -162,7 +162,7 @@ body{
 }.third img{
     width: 70%;
 }.app img{
-    width: 500px;
+    width: 600px;
 }
 .app{
     background-color:  #0C2340;;
@@ -173,7 +173,19 @@ body{
 } .last{
   
   width:50%;
-}.last1{
+}.last1 h2{
+    padding: 2rem;
+    
+}hr{
+    height: 2px;
+    background-color:#AE9142;
+    width: 100px;
+    padding: 3px;
+}
+.last1 h3{
+    font-size: 40px;
+}
+.last1{
    
     padding: 20px;
     font-size: 20px;
@@ -183,4 +195,78 @@ body{
     font-size: 20px;
 }.last5{
     font-size: 20px;
+}.nid2{
+    
+    padding: 20px;
+    margin-top: 2cm;
+    margin-left: 4cm;
+    width: 40%;
+    border: none;
+    font-size: 20px
+    
+}.nid2:hover{
+    background-color: #163c6a;
+    cursor: pointer;
+    border-radius: 20px;
+}.coma{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+}.coma h2{
+    font-size: 40px;
+}.coma a{
+    padding: 10px;
+   width: 70px;
+    border-radius: 20px;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+}.coma a:hover{
+    padding: 10px;
+    background-color: rgb(187, 199, 196);
+    border-radius: 20px;
+    width: 70px;
+}.taka{
+    display: flex;
+}.taka1{
+    width: 50%;
+    position: relative;
+    top: 50px;
+    left: 8rem;
+}
+.taka1 img{
+    width: 100%;
+}.taka2{
+   width: 50%;
+   padding-left: 2cm;
+   background-color: #EDF2F9;
+   text-align: center;
+   
+}
+.taka2 h3{
+    font-size: 20px;
+    padding-top: 1cm;
+    
+}.taka2 p{
+    font-size: 40px;
+    color: brown;
+    padding-top: 1cm;
+}.tips{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}.tip1 img{
+    width: 50%;
+    
+    
+
+}.tip1{
+    display: flex;
+}.tips p{
+    font-size: 22px;
+    padding-top: 1cm;
+}.tips h3{
+    font-size: 20px;
+    padding-top: 1cm;
 }
