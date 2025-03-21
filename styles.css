@@ -473,7 +473,7 @@ hr {
 }
 .she{
     margin-top: 10cm;
-    background-color: aqua;
+    background-color: rgb(90, 135, 202);
 }
 .na1 {
     display: flex;
@@ -494,4 +494,21 @@ hr {
     justify-content: space-between;
     margin-top: 1cm;
     
+}.sam{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2cm;
+    background-color: antiquewhite;
+    padding-bottom: 2cm;
+    padding: 2em;
+
+}.sasa{
+    display: flex;
+}.sam li{
+    list-style: none;
+    padding-left: 1cm;
+    text-decoration: none;
+}.sam li a{
+    text-decoration: none;
+    color: black;
 }
