@@ -2,3 +2,38 @@
     margin: 0;
     padding: 0;
 }
+body{
+
+}.headings{
+    position: relative;
+    background-color: rgb(41, 11, 100);
+}
+.navs{
+    
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    
+    text-align: center;
+}.navs li{
+    padding: 20px;
+    list-style: none;
+    color: white;
+    font-size: 20px;
+}
+.navs img{
+    padding: 10px;
+    width: 20px;
+}.es{
+   
+    
+    
+    display: flex;
+}.logo{
+    display: flex;
+    color: white;
+   
+    
+}.logo img{
+    width: 40px;
+}
