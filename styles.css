@@ -113,23 +113,25 @@ body{
     background-color: rebeccapurple;
     width: 700px;
 
-}.im1:hover{
-    background-color: antiquewhite;
-}.im1 p{
-    
-    padding-top: 2rem;
+}.im1 img{
+    width: 100%;
 }
-.im1 h2{
+.im1:hover{
+    background-color: antiquewhite;
+    transform: scale(1.09);
+    border-radius: 20px;
     
-    padding-top: 1cm;
 }
 .im1{
     
     margin-top: 2cm;
-    width: 50%;
+    width: 40%;
     height: 20%;
 }.im2:hover{
     background-color: antiquewhite;
+    transform: scale(1.09);
+    border-radius: 20px;
+
 }
 .im2{
    
@@ -138,13 +140,17 @@ body{
    
 }.im3:hover{
     background-color: antiquewhite;
+    transform: scale(1.09);
+    border-radius: 20px;
+    
 }
-.im3{
+.im3,.im2{
    
-   margin-top: 2rem;
+   margin: 3rem;
+
     
 }.third p h2{
-    padding: 2rem;
+   
 }
 .third p{
     font-size: 20px;
@@ -155,4 +161,26 @@ body{
     
 }.third img{
     width: 70%;
+}.app img{
+    width: 500px;
+}
+.app{
+    background-color:  #0C2340;;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    color: white;
+} .last{
+  
+  width:50%;
+}.last1{
+   
+    padding: 20px;
+    font-size: 20px;
+}.last2{
+   
+    padding: 20px;
+    font-size: 20px;
+}.last5{
+    font-size: 20px;
 }
