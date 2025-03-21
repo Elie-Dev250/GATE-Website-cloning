@@ -3,16 +3,22 @@
     padding: 0;
 }
 body{
+    margin: 0;
+    padding: 0;
 
-}.headings{
+}.all1{
+    
+}
+.headings{
     position: relative;
-    background-color: rgb(41, 11, 100);
+    background-color: #0C2340;
 }
 .navs{
     
     display: flex;
     justify-content: flex-end;
     padding: 20px;
+
     
     text-align: center;
 }.navs li{
@@ -36,4 +42,54 @@ body{
     
 }.logo img{
     width: 40px;
+    padding-left: 3rem;
+}.nav2{
+    background-color: #EDF2F9;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10cm;
+    position: absolute;
+    bottom: 0px;
+    top: auto;
+   
+   
+
+}.nav2 li{
+    padding: 30px;
+
+}.page h2{
+    color: #0C2340;
+    opacity: 0.7
+}
+.page p {
+    font-size: 40px;
+    color: #0C2340;
+}.readmore img{
+    width: 20px;
+}.readmore{
+    padding: 1rem;
+
+}.readmore:hover{
+    background-color: #EDF2F9;
+    cursor: pointer;
+    border-radius: 20px;
+    
+    
+}
+.readmore{
+    font-size: 20px;
+    margin-top: 3rem;
+    position: absolute;
+    margin-left: 6rem;
+}.land{
+    
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3rem;
+}.page1 img{
+    background-color: rebeccapurple;
+    width: 700px;
+
 }
