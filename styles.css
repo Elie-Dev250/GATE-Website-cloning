@@ -6,6 +6,7 @@
 body {
     margin: 0;
     padding: 0;
+    overflow-x: 0px;
 
 }
 
@@ -473,7 +474,7 @@ hr {
 }
 .she{
     margin-top: 10cm;
-    background-color: rgb(90, 135, 202);
+    background-color: #163c6a;
 }
 .na1 {
     display: flex;
@@ -498,7 +499,7 @@ hr {
     display: flex;
     justify-content: space-between;
     margin-top: 2cm;
-    background-color: antiquewhite;
+    background-color: #E1E8F2;
     padding-bottom: 2cm;
     padding: 2em;
 
